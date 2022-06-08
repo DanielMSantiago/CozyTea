@@ -1,4 +1,4 @@
-body{
+body {
     font-family: helvetica;
     font-size: 22px;
     color: seashell;
@@ -7,24 +7,27 @@ body{
     text-align: center;
 }
 
-.header {
+nav {
     height: 69px;
     border-bottom: 1px solid seashell;
 }
 
-.header img {
+nav img {
     display: flex;
     align-items: flex-start;
     margin-left: 10px;
     height: 50px;
+    width: auto;
+    position: relative;
 }
 
-.header div {
+nav div {
+    margin-left: 800px;
+}
+
+nav div a {
     display: inline-flex;
     text-decoration: underline;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: flex-end;
-    height: 50px;
-    
-
 }
