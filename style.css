@@ -13,21 +13,41 @@ nav {
 }
 
 nav img {
-    display: flex;
-    align-items: flex-start;
+    display: inline-flex;
+    padding-right: 900px;
     margin-left: 10px;
     height: 50px;
     width: auto;
-    position: relative;
 }
 
-nav div {
-    margin-left: 800px;
+nav span {
+    height: 100px;
+    margin-left: 100px;
+    
+
 }
 
-nav div a {
+nav span a {
     display: inline-flex;
     text-decoration: underline;
     justify-content: space-between;
     align-items: flex-end;
+   
+    
+}
+
+.Mission {
+    height: 700px;
+    opacity: .5;
+    margin-left: 100px;
+    left: 350px;
+    position: absolute;
+    z-index: 1;   
+}
+
+.MissionStatement {
+    width: 1200px;
+    left: 350px;
+    position: absolute;
+    z-index: 2;
 }
